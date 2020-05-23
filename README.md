@@ -1,4 +1,7 @@
 # Projeto  01:  
+
+![Pousada Bufalo](img/preview.jpg)
+
 `Desenvolver  um  site  utilizando  apenas  HTML5/CSS para  uma POUSADA em  algum  ponto  turístico  do Brasil.`
 
 `Deve conter:`
@@ -26,7 +29,7 @@ Juan Carlos Benvive Serrano (85468)
 
 # Build do projeto no Docker:
 
-Para criar a imagem do projeto certifique-se que esteja na pasta raiz dele e execute a sequencia de comandos: 
+Para criar a imagem do projeto certifique-se que esteja na pasta raiz dele e execute a sequencia de comandos:
 
 ```
 $ docker image build . -t pousada:latest
@@ -38,8 +41,8 @@ Conferindo se o container está em execução:
 ```
 $ docker ps
 
-CONTAINER ID        IMAGE               COMMAND                  CREATED             STATUS              PORTS                  NAMES
-692d807ff1d2        pousada             "/usr/sbin/httpd -D …"   3 minutes ago       Up 3 minutes        0.0.0.0:8081->80/tcp   pousada-teste
+CONTAINER ID        IMAGE      COMMAND                  CREATED             STATUS              PORTS                  NAMES
+692d807ff1d2        pousada    "/usr/sbin/httpd -D …"   3 minutes ago       Up 3 minutes        0.0.0.0:8081->80/tcp   pousada-teste
 
 ```
 
@@ -50,7 +53,7 @@ Apos finalizado a subida do container acesse o endereço local da sua maquina in
 # Baixando imagem do dockerhub:
 
 ```
-$ docker pull docker push gh3corp/web-pousada:latest
+$ docker pull dihogoteixeira/gh3-pousada:latest
 
-$ docker run -dti --name pousada-teste -p 8081:80 gh3corp/web-pousada:latest
+$ docker run -dti --name pousada-teste -p 8081:80 gh3-pousada:latest
 ```
