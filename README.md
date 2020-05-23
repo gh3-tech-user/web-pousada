@@ -18,14 +18,14 @@
 
 ## Integrantes do grupo Gh3
 
-```
-Alexandre Pacheco do Couto (85657)
-Allan Phyllyp Reis (85619)
-Dihogo Cassimiro Teixeira (84082)
-Fernando Borgatto Bouman (85833)
-Ingrid Pinheiro (83579)
-Juan Carlos Benvive Serrano (85468)
-```
+| ALUNO                       |   RM     |
+|-----------------------------|----------|
+| Alexandre Pacheco do Couto  | 85657    |
+| Allan Phyllyp Reis          | 85619    |
+| Dihogo Cassimiro Teixeira   | 84082    |
+| Fernando Borgatto Bouman    | 85833    |
+| Ingrid Pinheiro             | 83579    |
+| Juan Carlos Benvive Serrano | 85468    |
 
 # Build do projeto no Docker:
 
